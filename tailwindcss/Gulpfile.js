@@ -11,7 +11,7 @@ gulp.task('bs', ['css'], function () {
         }
     });
 
-    gulp.watch(["index.html", "tailwindcss-config.js"], ['css', 'html-watch']);
+    gulp.watch(["src.css", "index.html", "tailwindcss-config.js"], ['css', 'html-watch']);
 });
 
 gulp.task('html-watch', function (done) {

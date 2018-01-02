@@ -1,5 +1,9 @@
 @import '../node_modules/tailwindcss/dist/preflight.css';
 
+body {
+    font-size: 13px;
+}
+
 /**
  * Here you would add any of your custom component classes; stuff that you'd
  * want loaded *before* the utilities so that the utilities could still
@@ -15,7 +19,6 @@
  * @import "components/buttons";
  * @import "components/forms";
  */
-
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
