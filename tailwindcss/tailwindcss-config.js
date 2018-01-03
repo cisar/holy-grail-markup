@@ -40,10 +40,13 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
     'transparent': 'transparent',
 
+    '#000': '#000',
+    '#293499': '#293499',
     '#45f': '#45f',
+    '#dde6ff': '#dde6ff',
+    '#d00': '#d00',
     '#eee': '#eee',
     '#fff': '#fff',
-    '#293499': '#293499',
 }
 
 module.exports = {
@@ -137,8 +140,11 @@ module.exports = {
     */
 
     textSizes: {
+        '9': '9px',
+
         '70%': '70%',
         '80%': '80%',
+        '100%': '100%',
         '130%': '130%',
         '180%': '180%',
     },
@@ -331,9 +337,12 @@ module.exports = {
     width: {
         'auto': 'auto',
 
-        '700px': '700',
+        '700': '700px',
+
         '25%': '25%',
         '55%': '55%',
+
+        '10em': '10em',
 
         'full': '100%',
         'screen': '100vw'
@@ -472,6 +481,7 @@ module.exports = {
 
     padding: {
         '0': '0',
+        '2': '2px',
         '5': '5px',
         '15': '15px',
         '20': '20px',
@@ -506,6 +516,7 @@ module.exports = {
         '10': '10px',
         '15': '15px',
         '20': '20px',
+        '25': '25px',
         '50': '50px',
     },
 

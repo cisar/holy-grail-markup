@@ -84,8 +84,24 @@ body {
   background-color: transparent;
 }
 
+.bg-\#000 {
+  background-color: #000;
+}
+
+.bg-\#293499 {
+  background-color: #293499;
+}
+
 .bg-\#45f {
   background-color: #45f;
+}
+
+.bg-\#dde6ff {
+  background-color: #dde6ff;
+}
+
+.bg-\#d00 {
+  background-color: #d00;
 }
 
 .bg-\#eee {
@@ -96,16 +112,28 @@ body {
   background-color: #fff;
 }
 
-.bg-\#293499 {
-  background-color: #293499;
-}
-
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
 
+.hover\:bg-\#000:hover {
+  background-color: #000;
+}
+
+.hover\:bg-\#293499:hover {
+  background-color: #293499;
+}
+
 .hover\:bg-\#45f:hover {
   background-color: #45f;
+}
+
+.hover\:bg-\#dde6ff:hover {
+  background-color: #dde6ff;
+}
+
+.hover\:bg-\#d00:hover {
+  background-color: #d00;
 }
 
 .hover\:bg-\#eee:hover {
@@ -114,10 +142,6 @@ body {
 
 .hover\:bg-\#fff:hover {
   background-color: #fff;
-}
-
-.hover\:bg-\#293499:hover {
-  background-color: #293499;
 }
 
 .bg-bottom {
@@ -184,8 +208,24 @@ body {
   border-color: transparent;
 }
 
+.border-\#000 {
+  border-color: #000;
+}
+
+.border-\#293499 {
+  border-color: #293499;
+}
+
 .border-\#45f {
   border-color: #45f;
+}
+
+.border-\#dde6ff {
+  border-color: #dde6ff;
+}
+
+.border-\#d00 {
+  border-color: #d00;
 }
 
 .border-\#eee {
@@ -196,16 +236,28 @@ body {
   border-color: #fff;
 }
 
-.border-\#293499 {
-  border-color: #293499;
-}
-
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
 
+.hover\:border-\#000:hover {
+  border-color: #000;
+}
+
+.hover\:border-\#293499:hover {
+  border-color: #293499;
+}
+
 .hover\:border-\#45f:hover {
   border-color: #45f;
+}
+
+.hover\:border-\#dde6ff:hover {
+  border-color: #dde6ff;
+}
+
+.hover\:border-\#d00:hover {
+  border-color: #d00;
 }
 
 .hover\:border-\#eee:hover {
@@ -214,10 +266,6 @@ body {
 
 .hover\:border-\#fff:hover {
   border-color: #fff;
-}
-
-.hover\:border-\#293499:hover {
-  border-color: #293499;
 }
 
 .rounded-none {
@@ -878,6 +926,10 @@ body {
   margin: 20px;
 }
 
+.m-25 {
+  margin: 25px;
+}
+
 .m-50 {
   margin: 50px;
 }
@@ -948,6 +1000,16 @@ body {
 .mx-20 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.my-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.mx-25 {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .my-50 {
@@ -1074,6 +1136,22 @@ body {
 
 .ml-20 {
   margin-left: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.ml-25 {
+  margin-left: 25px;
 }
 
 .mt-50 {
@@ -1280,6 +1358,10 @@ body {
   padding: 0;
 }
 
+.p-2 {
+  padding: 2px;
+}
+
 .p-5 {
   padding: 5px;
 }
@@ -1308,6 +1390,16 @@ body {
 .px-0 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.py-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.px-2 {
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 .py-5 {
@@ -1374,6 +1466,22 @@ body {
 
 .pl-0 {
   padding-left: 0;
+}
+
+.pt-2 {
+  padding-top: 2px;
+}
+
+.pr-2 {
+  padding-right: 2px;
+}
+
+.pb-2 {
+  padding-bottom: 2px;
+}
+
+.pl-2 {
+  padding-left: 2px;
 }
 
 .pt-5 {
@@ -1584,8 +1692,24 @@ body {
   color: transparent;
 }
 
+.text-\#000 {
+  color: #000;
+}
+
+.text-\#293499 {
+  color: #293499;
+}
+
 .text-\#45f {
   color: #45f;
+}
+
+.text-\#dde6ff {
+  color: #dde6ff;
+}
+
+.text-\#d00 {
+  color: #d00;
 }
 
 .text-\#eee {
@@ -1596,16 +1720,28 @@ body {
   color: #fff;
 }
 
-.text-\#293499 {
-  color: #293499;
-}
-
 .hover\:text-transparent:hover {
   color: transparent;
 }
 
+.hover\:text-\#000:hover {
+  color: #000;
+}
+
+.hover\:text-\#293499:hover {
+  color: #293499;
+}
+
 .hover\:text-\#45f:hover {
   color: #45f;
+}
+
+.hover\:text-\#dde6ff:hover {
+  color: #dde6ff;
+}
+
+.hover\:text-\#d00:hover {
+  color: #d00;
 }
 
 .hover\:text-\#eee:hover {
@@ -1616,8 +1752,8 @@ body {
   color: #fff;
 }
 
-.hover\:text-\#293499:hover {
-  color: #293499;
+.text-9 {
+  font-size: 9px;
 }
 
 .text-70\% {
@@ -1626,6 +1762,10 @@ body {
 
 .text-80\% {
   font-size: 80%;
+}
+
+.text-100\% {
+  font-size: 100%;
 }
 
 .text-130\% {
@@ -1810,12 +1950,12 @@ body {
   white-space: nowrap;
 }
 
-.w-auto {
-  width: auto;
+.w-700 {
+  width: 700px;
 }
 
-.w-700px {
-  width: 700;
+.w-auto {
+  width: auto;
 }
 
 .w-25\% {
@@ -1824,6 +1964,10 @@ body {
 
 .w-55\% {
   width: 55%;
+}
+
+.w-10em {
+  width: 10em;
 }
 
 .w-full {
@@ -1903,8 +2047,24 @@ body {
     background-color: transparent;
   }
 
+  .sm\:bg-\#000 {
+    background-color: #000;
+  }
+
+  .sm\:bg-\#293499 {
+    background-color: #293499;
+  }
+
   .sm\:bg-\#45f {
     background-color: #45f;
+  }
+
+  .sm\:bg-\#dde6ff {
+    background-color: #dde6ff;
+  }
+
+  .sm\:bg-\#d00 {
+    background-color: #d00;
   }
 
   .sm\:bg-\#eee {
@@ -1915,16 +2075,28 @@ body {
     background-color: #fff;
   }
 
-  .sm\:bg-\#293499 {
-    background-color: #293499;
-  }
-
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
 
+  .sm\:hover\:bg-\#000:hover {
+    background-color: #000;
+  }
+
+  .sm\:hover\:bg-\#293499:hover {
+    background-color: #293499;
+  }
+
   .sm\:hover\:bg-\#45f:hover {
     background-color: #45f;
+  }
+
+  .sm\:hover\:bg-\#dde6ff:hover {
+    background-color: #dde6ff;
+  }
+
+  .sm\:hover\:bg-\#d00:hover {
+    background-color: #d00;
   }
 
   .sm\:hover\:bg-\#eee:hover {
@@ -1933,10 +2105,6 @@ body {
 
   .sm\:hover\:bg-\#fff:hover {
     background-color: #fff;
-  }
-
-  .sm\:hover\:bg-\#293499:hover {
-    background-color: #293499;
   }
 
   .sm\:bg-bottom {
@@ -2003,8 +2171,24 @@ body {
     border-color: transparent;
   }
 
+  .sm\:border-\#000 {
+    border-color: #000;
+  }
+
+  .sm\:border-\#293499 {
+    border-color: #293499;
+  }
+
   .sm\:border-\#45f {
     border-color: #45f;
+  }
+
+  .sm\:border-\#dde6ff {
+    border-color: #dde6ff;
+  }
+
+  .sm\:border-\#d00 {
+    border-color: #d00;
   }
 
   .sm\:border-\#eee {
@@ -2015,16 +2199,28 @@ body {
     border-color: #fff;
   }
 
-  .sm\:border-\#293499 {
-    border-color: #293499;
-  }
-
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
 
+  .sm\:hover\:border-\#000:hover {
+    border-color: #000;
+  }
+
+  .sm\:hover\:border-\#293499:hover {
+    border-color: #293499;
+  }
+
   .sm\:hover\:border-\#45f:hover {
     border-color: #45f;
+  }
+
+  .sm\:hover\:border-\#dde6ff:hover {
+    border-color: #dde6ff;
+  }
+
+  .sm\:hover\:border-\#d00:hover {
+    border-color: #d00;
   }
 
   .sm\:hover\:border-\#eee:hover {
@@ -2033,10 +2229,6 @@ body {
 
   .sm\:hover\:border-\#fff:hover {
     border-color: #fff;
-  }
-
-  .sm\:hover\:border-\#293499:hover {
-    border-color: #293499;
   }
 
   .sm\:rounded-none {
@@ -2697,6 +2889,10 @@ body {
     margin: 20px;
   }
 
+  .sm\:m-25 {
+    margin: 25px;
+  }
+
   .sm\:m-50 {
     margin: 50px;
   }
@@ -2767,6 +2963,16 @@ body {
   .sm\:mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .sm\:my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .sm\:mx-25 {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .sm\:my-50 {
@@ -2893,6 +3099,22 @@ body {
 
   .sm\:ml-20 {
     margin-left: 20px;
+  }
+
+  .sm\:mt-25 {
+    margin-top: 25px;
+  }
+
+  .sm\:mr-25 {
+    margin-right: 25px;
+  }
+
+  .sm\:mb-25 {
+    margin-bottom: 25px;
+  }
+
+  .sm\:ml-25 {
+    margin-left: 25px;
   }
 
   .sm\:mt-50 {
@@ -3099,6 +3321,10 @@ body {
     padding: 0;
   }
 
+  .sm\:p-2 {
+    padding: 2px;
+  }
+
   .sm\:p-5 {
     padding: 5px;
   }
@@ -3127,6 +3353,16 @@ body {
   .sm\:px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .sm\:py-2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .sm\:px-2 {
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .sm\:py-5 {
@@ -3193,6 +3429,22 @@ body {
 
   .sm\:pl-0 {
     padding-left: 0;
+  }
+
+  .sm\:pt-2 {
+    padding-top: 2px;
+  }
+
+  .sm\:pr-2 {
+    padding-right: 2px;
+  }
+
+  .sm\:pb-2 {
+    padding-bottom: 2px;
+  }
+
+  .sm\:pl-2 {
+    padding-left: 2px;
   }
 
   .sm\:pt-5 {
@@ -3395,8 +3647,24 @@ body {
     color: transparent;
   }
 
+  .sm\:text-\#000 {
+    color: #000;
+  }
+
+  .sm\:text-\#293499 {
+    color: #293499;
+  }
+
   .sm\:text-\#45f {
     color: #45f;
+  }
+
+  .sm\:text-\#dde6ff {
+    color: #dde6ff;
+  }
+
+  .sm\:text-\#d00 {
+    color: #d00;
   }
 
   .sm\:text-\#eee {
@@ -3407,16 +3675,28 @@ body {
     color: #fff;
   }
 
-  .sm\:text-\#293499 {
-    color: #293499;
-  }
-
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
 
+  .sm\:hover\:text-\#000:hover {
+    color: #000;
+  }
+
+  .sm\:hover\:text-\#293499:hover {
+    color: #293499;
+  }
+
   .sm\:hover\:text-\#45f:hover {
     color: #45f;
+  }
+
+  .sm\:hover\:text-\#dde6ff:hover {
+    color: #dde6ff;
+  }
+
+  .sm\:hover\:text-\#d00:hover {
+    color: #d00;
   }
 
   .sm\:hover\:text-\#eee:hover {
@@ -3427,8 +3707,8 @@ body {
     color: #fff;
   }
 
-  .sm\:hover\:text-\#293499:hover {
-    color: #293499;
+  .sm\:text-9 {
+    font-size: 9px;
   }
 
   .sm\:text-70\% {
@@ -3437,6 +3717,10 @@ body {
 
   .sm\:text-80\% {
     font-size: 80%;
+  }
+
+  .sm\:text-100\% {
+    font-size: 100%;
   }
 
   .sm\:text-130\% {
@@ -3621,12 +3905,12 @@ body {
     white-space: nowrap;
   }
 
-  .sm\:w-auto {
-    width: auto;
+  .sm\:w-700 {
+    width: 700px;
   }
 
-  .sm\:w-700px {
-    width: 700;
+  .sm\:w-auto {
+    width: auto;
   }
 
   .sm\:w-25\% {
@@ -3635,6 +3919,10 @@ body {
 
   .sm\:w-55\% {
     width: 55%;
+  }
+
+  .sm\:w-10em {
+    width: 10em;
   }
 
   .sm\:w-full {
@@ -3700,8 +3988,24 @@ body {
     background-color: transparent;
   }
 
+  .md\:bg-\#000 {
+    background-color: #000;
+  }
+
+  .md\:bg-\#293499 {
+    background-color: #293499;
+  }
+
   .md\:bg-\#45f {
     background-color: #45f;
+  }
+
+  .md\:bg-\#dde6ff {
+    background-color: #dde6ff;
+  }
+
+  .md\:bg-\#d00 {
+    background-color: #d00;
   }
 
   .md\:bg-\#eee {
@@ -3712,16 +4016,28 @@ body {
     background-color: #fff;
   }
 
-  .md\:bg-\#293499 {
-    background-color: #293499;
-  }
-
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
 
+  .md\:hover\:bg-\#000:hover {
+    background-color: #000;
+  }
+
+  .md\:hover\:bg-\#293499:hover {
+    background-color: #293499;
+  }
+
   .md\:hover\:bg-\#45f:hover {
     background-color: #45f;
+  }
+
+  .md\:hover\:bg-\#dde6ff:hover {
+    background-color: #dde6ff;
+  }
+
+  .md\:hover\:bg-\#d00:hover {
+    background-color: #d00;
   }
 
   .md\:hover\:bg-\#eee:hover {
@@ -3730,10 +4046,6 @@ body {
 
   .md\:hover\:bg-\#fff:hover {
     background-color: #fff;
-  }
-
-  .md\:hover\:bg-\#293499:hover {
-    background-color: #293499;
   }
 
   .md\:bg-bottom {
@@ -3800,8 +4112,24 @@ body {
     border-color: transparent;
   }
 
+  .md\:border-\#000 {
+    border-color: #000;
+  }
+
+  .md\:border-\#293499 {
+    border-color: #293499;
+  }
+
   .md\:border-\#45f {
     border-color: #45f;
+  }
+
+  .md\:border-\#dde6ff {
+    border-color: #dde6ff;
+  }
+
+  .md\:border-\#d00 {
+    border-color: #d00;
   }
 
   .md\:border-\#eee {
@@ -3812,16 +4140,28 @@ body {
     border-color: #fff;
   }
 
-  .md\:border-\#293499 {
-    border-color: #293499;
-  }
-
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
 
+  .md\:hover\:border-\#000:hover {
+    border-color: #000;
+  }
+
+  .md\:hover\:border-\#293499:hover {
+    border-color: #293499;
+  }
+
   .md\:hover\:border-\#45f:hover {
     border-color: #45f;
+  }
+
+  .md\:hover\:border-\#dde6ff:hover {
+    border-color: #dde6ff;
+  }
+
+  .md\:hover\:border-\#d00:hover {
+    border-color: #d00;
   }
 
   .md\:hover\:border-\#eee:hover {
@@ -3830,10 +4170,6 @@ body {
 
   .md\:hover\:border-\#fff:hover {
     border-color: #fff;
-  }
-
-  .md\:hover\:border-\#293499:hover {
-    border-color: #293499;
   }
 
   .md\:rounded-none {
@@ -4494,6 +4830,10 @@ body {
     margin: 20px;
   }
 
+  .md\:m-25 {
+    margin: 25px;
+  }
+
   .md\:m-50 {
     margin: 50px;
   }
@@ -4564,6 +4904,16 @@ body {
   .md\:mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .md\:my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .md\:mx-25 {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .md\:my-50 {
@@ -4690,6 +5040,22 @@ body {
 
   .md\:ml-20 {
     margin-left: 20px;
+  }
+
+  .md\:mt-25 {
+    margin-top: 25px;
+  }
+
+  .md\:mr-25 {
+    margin-right: 25px;
+  }
+
+  .md\:mb-25 {
+    margin-bottom: 25px;
+  }
+
+  .md\:ml-25 {
+    margin-left: 25px;
   }
 
   .md\:mt-50 {
@@ -4896,6 +5262,10 @@ body {
     padding: 0;
   }
 
+  .md\:p-2 {
+    padding: 2px;
+  }
+
   .md\:p-5 {
     padding: 5px;
   }
@@ -4924,6 +5294,16 @@ body {
   .md\:px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .md\:py-2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .md\:px-2 {
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .md\:py-5 {
@@ -4990,6 +5370,22 @@ body {
 
   .md\:pl-0 {
     padding-left: 0;
+  }
+
+  .md\:pt-2 {
+    padding-top: 2px;
+  }
+
+  .md\:pr-2 {
+    padding-right: 2px;
+  }
+
+  .md\:pb-2 {
+    padding-bottom: 2px;
+  }
+
+  .md\:pl-2 {
+    padding-left: 2px;
   }
 
   .md\:pt-5 {
@@ -5192,8 +5588,24 @@ body {
     color: transparent;
   }
 
+  .md\:text-\#000 {
+    color: #000;
+  }
+
+  .md\:text-\#293499 {
+    color: #293499;
+  }
+
   .md\:text-\#45f {
     color: #45f;
+  }
+
+  .md\:text-\#dde6ff {
+    color: #dde6ff;
+  }
+
+  .md\:text-\#d00 {
+    color: #d00;
   }
 
   .md\:text-\#eee {
@@ -5204,16 +5616,28 @@ body {
     color: #fff;
   }
 
-  .md\:text-\#293499 {
-    color: #293499;
-  }
-
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
 
+  .md\:hover\:text-\#000:hover {
+    color: #000;
+  }
+
+  .md\:hover\:text-\#293499:hover {
+    color: #293499;
+  }
+
   .md\:hover\:text-\#45f:hover {
     color: #45f;
+  }
+
+  .md\:hover\:text-\#dde6ff:hover {
+    color: #dde6ff;
+  }
+
+  .md\:hover\:text-\#d00:hover {
+    color: #d00;
   }
 
   .md\:hover\:text-\#eee:hover {
@@ -5224,8 +5648,8 @@ body {
     color: #fff;
   }
 
-  .md\:hover\:text-\#293499:hover {
-    color: #293499;
+  .md\:text-9 {
+    font-size: 9px;
   }
 
   .md\:text-70\% {
@@ -5234,6 +5658,10 @@ body {
 
   .md\:text-80\% {
     font-size: 80%;
+  }
+
+  .md\:text-100\% {
+    font-size: 100%;
   }
 
   .md\:text-130\% {
@@ -5418,12 +5846,12 @@ body {
     white-space: nowrap;
   }
 
-  .md\:w-auto {
-    width: auto;
+  .md\:w-700 {
+    width: 700px;
   }
 
-  .md\:w-700px {
-    width: 700;
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:w-25\% {
@@ -5432,6 +5860,10 @@ body {
 
   .md\:w-55\% {
     width: 55%;
+  }
+
+  .md\:w-10em {
+    width: 10em;
   }
 
   .md\:w-full {
@@ -5497,8 +5929,24 @@ body {
     background-color: transparent;
   }
 
+  .lg\:bg-\#000 {
+    background-color: #000;
+  }
+
+  .lg\:bg-\#293499 {
+    background-color: #293499;
+  }
+
   .lg\:bg-\#45f {
     background-color: #45f;
+  }
+
+  .lg\:bg-\#dde6ff {
+    background-color: #dde6ff;
+  }
+
+  .lg\:bg-\#d00 {
+    background-color: #d00;
   }
 
   .lg\:bg-\#eee {
@@ -5509,16 +5957,28 @@ body {
     background-color: #fff;
   }
 
-  .lg\:bg-\#293499 {
-    background-color: #293499;
-  }
-
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
 
+  .lg\:hover\:bg-\#000:hover {
+    background-color: #000;
+  }
+
+  .lg\:hover\:bg-\#293499:hover {
+    background-color: #293499;
+  }
+
   .lg\:hover\:bg-\#45f:hover {
     background-color: #45f;
+  }
+
+  .lg\:hover\:bg-\#dde6ff:hover {
+    background-color: #dde6ff;
+  }
+
+  .lg\:hover\:bg-\#d00:hover {
+    background-color: #d00;
   }
 
   .lg\:hover\:bg-\#eee:hover {
@@ -5527,10 +5987,6 @@ body {
 
   .lg\:hover\:bg-\#fff:hover {
     background-color: #fff;
-  }
-
-  .lg\:hover\:bg-\#293499:hover {
-    background-color: #293499;
   }
 
   .lg\:bg-bottom {
@@ -5597,8 +6053,24 @@ body {
     border-color: transparent;
   }
 
+  .lg\:border-\#000 {
+    border-color: #000;
+  }
+
+  .lg\:border-\#293499 {
+    border-color: #293499;
+  }
+
   .lg\:border-\#45f {
     border-color: #45f;
+  }
+
+  .lg\:border-\#dde6ff {
+    border-color: #dde6ff;
+  }
+
+  .lg\:border-\#d00 {
+    border-color: #d00;
   }
 
   .lg\:border-\#eee {
@@ -5609,16 +6081,28 @@ body {
     border-color: #fff;
   }
 
-  .lg\:border-\#293499 {
-    border-color: #293499;
-  }
-
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
 
+  .lg\:hover\:border-\#000:hover {
+    border-color: #000;
+  }
+
+  .lg\:hover\:border-\#293499:hover {
+    border-color: #293499;
+  }
+
   .lg\:hover\:border-\#45f:hover {
     border-color: #45f;
+  }
+
+  .lg\:hover\:border-\#dde6ff:hover {
+    border-color: #dde6ff;
+  }
+
+  .lg\:hover\:border-\#d00:hover {
+    border-color: #d00;
   }
 
   .lg\:hover\:border-\#eee:hover {
@@ -5627,10 +6111,6 @@ body {
 
   .lg\:hover\:border-\#fff:hover {
     border-color: #fff;
-  }
-
-  .lg\:hover\:border-\#293499:hover {
-    border-color: #293499;
   }
 
   .lg\:rounded-none {
@@ -6291,6 +6771,10 @@ body {
     margin: 20px;
   }
 
+  .lg\:m-25 {
+    margin: 25px;
+  }
+
   .lg\:m-50 {
     margin: 50px;
   }
@@ -6361,6 +6845,16 @@ body {
   .lg\:mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .lg\:my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .lg\:mx-25 {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .lg\:my-50 {
@@ -6487,6 +6981,22 @@ body {
 
   .lg\:ml-20 {
     margin-left: 20px;
+  }
+
+  .lg\:mt-25 {
+    margin-top: 25px;
+  }
+
+  .lg\:mr-25 {
+    margin-right: 25px;
+  }
+
+  .lg\:mb-25 {
+    margin-bottom: 25px;
+  }
+
+  .lg\:ml-25 {
+    margin-left: 25px;
   }
 
   .lg\:mt-50 {
@@ -6693,6 +7203,10 @@ body {
     padding: 0;
   }
 
+  .lg\:p-2 {
+    padding: 2px;
+  }
+
   .lg\:p-5 {
     padding: 5px;
   }
@@ -6721,6 +7235,16 @@ body {
   .lg\:px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .lg\:py-2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .lg\:px-2 {
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .lg\:py-5 {
@@ -6787,6 +7311,22 @@ body {
 
   .lg\:pl-0 {
     padding-left: 0;
+  }
+
+  .lg\:pt-2 {
+    padding-top: 2px;
+  }
+
+  .lg\:pr-2 {
+    padding-right: 2px;
+  }
+
+  .lg\:pb-2 {
+    padding-bottom: 2px;
+  }
+
+  .lg\:pl-2 {
+    padding-left: 2px;
   }
 
   .lg\:pt-5 {
@@ -6989,8 +7529,24 @@ body {
     color: transparent;
   }
 
+  .lg\:text-\#000 {
+    color: #000;
+  }
+
+  .lg\:text-\#293499 {
+    color: #293499;
+  }
+
   .lg\:text-\#45f {
     color: #45f;
+  }
+
+  .lg\:text-\#dde6ff {
+    color: #dde6ff;
+  }
+
+  .lg\:text-\#d00 {
+    color: #d00;
   }
 
   .lg\:text-\#eee {
@@ -7001,16 +7557,28 @@ body {
     color: #fff;
   }
 
-  .lg\:text-\#293499 {
-    color: #293499;
-  }
-
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
 
+  .lg\:hover\:text-\#000:hover {
+    color: #000;
+  }
+
+  .lg\:hover\:text-\#293499:hover {
+    color: #293499;
+  }
+
   .lg\:hover\:text-\#45f:hover {
     color: #45f;
+  }
+
+  .lg\:hover\:text-\#dde6ff:hover {
+    color: #dde6ff;
+  }
+
+  .lg\:hover\:text-\#d00:hover {
+    color: #d00;
   }
 
   .lg\:hover\:text-\#eee:hover {
@@ -7021,8 +7589,8 @@ body {
     color: #fff;
   }
 
-  .lg\:hover\:text-\#293499:hover {
-    color: #293499;
+  .lg\:text-9 {
+    font-size: 9px;
   }
 
   .lg\:text-70\% {
@@ -7031,6 +7599,10 @@ body {
 
   .lg\:text-80\% {
     font-size: 80%;
+  }
+
+  .lg\:text-100\% {
+    font-size: 100%;
   }
 
   .lg\:text-130\% {
@@ -7215,12 +7787,12 @@ body {
     white-space: nowrap;
   }
 
-  .lg\:w-auto {
-    width: auto;
+  .lg\:w-700 {
+    width: 700px;
   }
 
-  .lg\:w-700px {
-    width: 700;
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:w-25\% {
@@ -7229,6 +7801,10 @@ body {
 
   .lg\:w-55\% {
     width: 55%;
+  }
+
+  .lg\:w-10em {
+    width: 10em;
   }
 
   .lg\:w-full {
@@ -7294,8 +7870,24 @@ body {
     background-color: transparent;
   }
 
+  .xl\:bg-\#000 {
+    background-color: #000;
+  }
+
+  .xl\:bg-\#293499 {
+    background-color: #293499;
+  }
+
   .xl\:bg-\#45f {
     background-color: #45f;
+  }
+
+  .xl\:bg-\#dde6ff {
+    background-color: #dde6ff;
+  }
+
+  .xl\:bg-\#d00 {
+    background-color: #d00;
   }
 
   .xl\:bg-\#eee {
@@ -7306,16 +7898,28 @@ body {
     background-color: #fff;
   }
 
-  .xl\:bg-\#293499 {
-    background-color: #293499;
-  }
-
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
 
+  .xl\:hover\:bg-\#000:hover {
+    background-color: #000;
+  }
+
+  .xl\:hover\:bg-\#293499:hover {
+    background-color: #293499;
+  }
+
   .xl\:hover\:bg-\#45f:hover {
     background-color: #45f;
+  }
+
+  .xl\:hover\:bg-\#dde6ff:hover {
+    background-color: #dde6ff;
+  }
+
+  .xl\:hover\:bg-\#d00:hover {
+    background-color: #d00;
   }
 
   .xl\:hover\:bg-\#eee:hover {
@@ -7324,10 +7928,6 @@ body {
 
   .xl\:hover\:bg-\#fff:hover {
     background-color: #fff;
-  }
-
-  .xl\:hover\:bg-\#293499:hover {
-    background-color: #293499;
   }
 
   .xl\:bg-bottom {
@@ -7394,8 +7994,24 @@ body {
     border-color: transparent;
   }
 
+  .xl\:border-\#000 {
+    border-color: #000;
+  }
+
+  .xl\:border-\#293499 {
+    border-color: #293499;
+  }
+
   .xl\:border-\#45f {
     border-color: #45f;
+  }
+
+  .xl\:border-\#dde6ff {
+    border-color: #dde6ff;
+  }
+
+  .xl\:border-\#d00 {
+    border-color: #d00;
   }
 
   .xl\:border-\#eee {
@@ -7406,16 +8022,28 @@ body {
     border-color: #fff;
   }
 
-  .xl\:border-\#293499 {
-    border-color: #293499;
-  }
-
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
 
+  .xl\:hover\:border-\#000:hover {
+    border-color: #000;
+  }
+
+  .xl\:hover\:border-\#293499:hover {
+    border-color: #293499;
+  }
+
   .xl\:hover\:border-\#45f:hover {
     border-color: #45f;
+  }
+
+  .xl\:hover\:border-\#dde6ff:hover {
+    border-color: #dde6ff;
+  }
+
+  .xl\:hover\:border-\#d00:hover {
+    border-color: #d00;
   }
 
   .xl\:hover\:border-\#eee:hover {
@@ -7424,10 +8052,6 @@ body {
 
   .xl\:hover\:border-\#fff:hover {
     border-color: #fff;
-  }
-
-  .xl\:hover\:border-\#293499:hover {
-    border-color: #293499;
   }
 
   .xl\:rounded-none {
@@ -8088,6 +8712,10 @@ body {
     margin: 20px;
   }
 
+  .xl\:m-25 {
+    margin: 25px;
+  }
+
   .xl\:m-50 {
     margin: 50px;
   }
@@ -8158,6 +8786,16 @@ body {
   .xl\:mx-20 {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .xl\:my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .xl\:mx-25 {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .xl\:my-50 {
@@ -8284,6 +8922,22 @@ body {
 
   .xl\:ml-20 {
     margin-left: 20px;
+  }
+
+  .xl\:mt-25 {
+    margin-top: 25px;
+  }
+
+  .xl\:mr-25 {
+    margin-right: 25px;
+  }
+
+  .xl\:mb-25 {
+    margin-bottom: 25px;
+  }
+
+  .xl\:ml-25 {
+    margin-left: 25px;
   }
 
   .xl\:mt-50 {
@@ -8490,6 +9144,10 @@ body {
     padding: 0;
   }
 
+  .xl\:p-2 {
+    padding: 2px;
+  }
+
   .xl\:p-5 {
     padding: 5px;
   }
@@ -8518,6 +9176,16 @@ body {
   .xl\:px-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .xl\:py-2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .xl\:px-2 {
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .xl\:py-5 {
@@ -8584,6 +9252,22 @@ body {
 
   .xl\:pl-0 {
     padding-left: 0;
+  }
+
+  .xl\:pt-2 {
+    padding-top: 2px;
+  }
+
+  .xl\:pr-2 {
+    padding-right: 2px;
+  }
+
+  .xl\:pb-2 {
+    padding-bottom: 2px;
+  }
+
+  .xl\:pl-2 {
+    padding-left: 2px;
   }
 
   .xl\:pt-5 {
@@ -8786,8 +9470,24 @@ body {
     color: transparent;
   }
 
+  .xl\:text-\#000 {
+    color: #000;
+  }
+
+  .xl\:text-\#293499 {
+    color: #293499;
+  }
+
   .xl\:text-\#45f {
     color: #45f;
+  }
+
+  .xl\:text-\#dde6ff {
+    color: #dde6ff;
+  }
+
+  .xl\:text-\#d00 {
+    color: #d00;
   }
 
   .xl\:text-\#eee {
@@ -8798,16 +9498,28 @@ body {
     color: #fff;
   }
 
-  .xl\:text-\#293499 {
-    color: #293499;
-  }
-
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
 
+  .xl\:hover\:text-\#000:hover {
+    color: #000;
+  }
+
+  .xl\:hover\:text-\#293499:hover {
+    color: #293499;
+  }
+
   .xl\:hover\:text-\#45f:hover {
     color: #45f;
+  }
+
+  .xl\:hover\:text-\#dde6ff:hover {
+    color: #dde6ff;
+  }
+
+  .xl\:hover\:text-\#d00:hover {
+    color: #d00;
   }
 
   .xl\:hover\:text-\#eee:hover {
@@ -8818,8 +9530,8 @@ body {
     color: #fff;
   }
 
-  .xl\:hover\:text-\#293499:hover {
-    color: #293499;
+  .xl\:text-9 {
+    font-size: 9px;
   }
 
   .xl\:text-70\% {
@@ -8828,6 +9540,10 @@ body {
 
   .xl\:text-80\% {
     font-size: 80%;
+  }
+
+  .xl\:text-100\% {
+    font-size: 100%;
   }
 
   .xl\:text-130\% {
@@ -9012,12 +9728,12 @@ body {
     white-space: nowrap;
   }
 
-  .xl\:w-auto {
-    width: auto;
+  .xl\:w-700 {
+    width: 700px;
   }
 
-  .xl\:w-700px {
-    width: 700;
+  .xl\:w-auto {
+    width: auto;
   }
 
   .xl\:w-25\% {
@@ -9026,6 +9742,10 @@ body {
 
   .xl\:w-55\% {
     width: 55%;
+  }
+
+  .xl\:w-10em {
+    width: 10em;
   }
 
   .xl\:w-full {
