@@ -13,12 +13,19 @@
       gtag('config', 'UA-86724647-1');
     </script>
 </head>
-<body class="relative min-h-full my-0 mx-auto bg-#fff w-700 font-sans">
-    <div class="bg-#45f text-#fff">
-        <h1 class="my-0 py-20 px-60 text-180% tracking-1">CompanyName</h1>
+<body class="flex flex-col min-h-full my-0 mx-auto bg-#fff w-700 font-sans">
+    <div class="py-20 bg-#45f text-#fff flex justify-between">
+        <h1 class="px-60 text-180% tracking-1">CompanyName</h1>
+
+        <form class="flex items-end w-25% px-20 text-80%">
+            <label class="text-#fff pr-5">Type to search:
+                <input class="block text-9 p-3" type="text">
+            </label>
+            <button class="text-9 bg-#fff py-3 px-8 rounded" type="submit">Search</button>
+        </form>
     </div>
-    <div class="overflow-hidden min-h-full pb-40">
-        <div class="float-left w-55% ml-20%">
+    <div class="flex-grow flex pb-40">
+        <div class="w-55%">
             <h2 class="mt-20 mb-10 text-130% px-15 text-#293499">About Company</h2>
             <div class="px-15">
                 <img class="float-left p-5 border border-solid border-#45f mr-15 mb-15" src="imgpsh_fullsize.jpg" alt="Image">
@@ -37,7 +44,7 @@
                 Suspendisse potenti.</p>
             </div>
         </div>
-        <div class="float-left w-20% -ml-75%">
+        <div class="w-20% -order-1">
             <ul class="list-reset mt-50 text-80%">
                 <li class="my-7">
                     <a href="https://aleshaoleg.github.io/holy-grail-markup/oocss" class="block px-5 py-2 bg-#dde6ff text-#000 no-underline hover:text-#fff hover:bg-#d00">OOCSS</a>
@@ -75,40 +82,35 @@
                     <a href="https://aleshaoleg.github.io/holy-grail-markup/raw" class="block px-5 py-2 bg-#dde6ff text-#000 no-underline hover:text-#fff hover:bg-#d00">Raw</a>
                 </li>
             </ul>
-            <form class="absolute pin-t pin-r text-80% m-20">
-                <label class="inline-block text-#fff">Type to search:
-                    <input class="block w-10em text-9" type="text">
-                </label>
-                <button class="inline-block text-9" type="submit">Search</button>
-            </form>
+
         </div>
-        <div class="w-25% float-right text-#293499">
-            <h2 class="mt-0 mb-20 p-10 bg-#dde6ff uppercase bold text-100%">News</h2>
+        <div class="w-25% text-#293499">
+            <h2 class="mb-20 p-10 bg-#dde6ff uppercase bold text-100%">News</h2>
             <div class="mx-5 my-20 text-80%">
-                <h3 class="float-left text-100% bold my-0 mr-5px">01.01.16</h3>
+                <h3 class="float-left text-100% mr-5">01.01.16</h3>
                 <p class="inline">Vestibulum semper convallis mauris vitae lobortis.
                 Pellentesque lobortis sem a cursus varius. Phasellus
                 dignissim diam eget lectus cursus finibus.</p>
             </div>
             <div class="mx-5 my-20 text-80%">
-                <h3 class="float-left text-100% bold my-0 mr-5">03.01.16</h3>
-                <p class="inline-block">Nam placerat tellus vitae rhoncus
+                <h3 class="float-left text-100% mr-5">03.01.16</h3>
+                <p class="inline">Nam placerat tellus vitae rhoncus
                 ornare. Suspendisse scelerisque lorem id turpis efficitur
                 facilisis. Vivamus enim magna, hendrerit id rutrum at, euismod
                 ac orci.</p>
                 <a href="#" class="text-#d00 pr-15">Read more...</a>
             </div>
             <div class="mx-5 my-20 text-80%">
-                <h3 class="Fl(start) Fz(100%) Fw(b) My(0) Mend(5px)">08.01.16</h3>
-                <p class="D(i)">Maecenas sed orci turpis. Donec pretium lorem in purus porta
+                <h3 class="float-left text-100% mr-5">08.01.16</h3>
+                <p class="inline">Maecenas sed orci turpis. Donec pretium lorem in purus porta
                 hendrerit. Praesent at placerat lacus, ac ultrices ligula. Cras
                 at consequat velit. Vivamus dapibus metus at nisl imperdiet
                 imperdiet.</p>
-                <a href="#" class="C(#d00) Pend(13px)">Read more...</a>
+                <a href="#" class="text-#d00 pr-15">Read more...</a>
             </div>
         </div>
     </div>
-    <div class="absolute pin-b w-full h-40 bg-#45f text-#fff text-70%">
+    <div class="h-40 bg-#45f text-#fff text-70%">
         <p class="m-5">© 2016 CompanyName, Inc. All Rights Reserved.</p>
         <p class="m-5">Site support: <a class="text-#fff" href="mailto:design@megacorp.kk">design@megacorp.kk</a></p>
     </div>
