@@ -38,7 +38,7 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 */
 
 let colors = {
-    'transparent': 'transparent',
+    // 'transparent': 'transparent',
 
     '#000': '#000',
     '#293499': '#293499',
@@ -510,8 +510,6 @@ module.exports = {
     margin: {
         'auto': 'auto',
         '0': '0',
-
-        '20%': '20%',
 
         '5': '5px',
         '7': '7px',

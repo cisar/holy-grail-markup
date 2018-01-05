@@ -80,10 +80,6 @@ body {
   background-attachment: scroll;
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
 .bg-\#000 {
   background-color: #000;
 }
@@ -110,10 +106,6 @@ body {
 
 .bg-\#fff {
   background-color: #fff;
-}
-
-.hover\:bg-transparent:hover {
-  background-color: transparent;
 }
 
 .hover\:bg-\#000:hover {
@@ -204,10 +196,6 @@ body {
   background-size: contain;
 }
 
-.border-transparent {
-  border-color: transparent;
-}
-
 .border-\#000 {
   border-color: #000;
 }
@@ -234,10 +222,6 @@ body {
 
 .border-\#fff {
   border-color: #fff;
-}
-
-.hover\:border-transparent:hover {
-  border-color: transparent;
 }
 
 .hover\:border-\#000:hover {
@@ -938,10 +922,6 @@ body {
   margin: auto;
 }
 
-.m-20\% {
-  margin: 20%;
-}
-
 .my-0 {
   margin-top: 0;
   margin-bottom: 0;
@@ -1030,16 +1010,6 @@ body {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-20\% {
-  margin-top: 20%;
-  margin-bottom: 20%;
-}
-
-.mx-20\% {
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 .mt-0 {
@@ -1184,22 +1154,6 @@ body {
 
 .ml-auto {
   margin-left: auto;
-}
-
-.mt-20\% {
-  margin-top: 20%;
-}
-
-.mr-20\% {
-  margin-right: 20%;
-}
-
-.mb-20\% {
-  margin-bottom: 20%;
-}
-
-.ml-20\% {
-  margin-left: 20%;
 }
 
 .max-h-full {
@@ -1778,10 +1732,6 @@ body {
   text-align: justify;
 }
 
-.text-transparent {
-  color: transparent;
-}
-
 .text-\#000 {
   color: #000;
 }
@@ -1808,10 +1758,6 @@ body {
 
 .text-\#fff {
   color: #fff;
-}
-
-.hover\:text-transparent:hover {
-  color: transparent;
 }
 
 .hover\:text-\#000:hover {
@@ -2137,10 +2083,6 @@ body {
     background-attachment: scroll;
   }
 
-  .sm\:bg-transparent {
-    background-color: transparent;
-  }
-
   .sm\:bg-\#000 {
     background-color: #000;
   }
@@ -2167,10 +2109,6 @@ body {
 
   .sm\:bg-\#fff {
     background-color: #fff;
-  }
-
-  .sm\:hover\:bg-transparent:hover {
-    background-color: transparent;
   }
 
   .sm\:hover\:bg-\#000:hover {
@@ -2261,10 +2199,6 @@ body {
     background-size: contain;
   }
 
-  .sm\:border-transparent {
-    border-color: transparent;
-  }
-
   .sm\:border-\#000 {
     border-color: #000;
   }
@@ -2291,10 +2225,6 @@ body {
 
   .sm\:border-\#fff {
     border-color: #fff;
-  }
-
-  .sm\:hover\:border-transparent:hover {
-    border-color: transparent;
   }
 
   .sm\:hover\:border-\#000:hover {
@@ -2995,10 +2925,6 @@ body {
     margin: auto;
   }
 
-  .sm\:m-20\% {
-    margin: 20%;
-  }
-
   .sm\:my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -3087,16 +3013,6 @@ body {
   .sm\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .sm\:my-20\% {
-    margin-top: 20%;
-    margin-bottom: 20%;
-  }
-
-  .sm\:mx-20\% {
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   .sm\:mt-0 {
@@ -3241,22 +3157,6 @@ body {
 
   .sm\:ml-auto {
     margin-left: auto;
-  }
-
-  .sm\:mt-20\% {
-    margin-top: 20%;
-  }
-
-  .sm\:mr-20\% {
-    margin-right: 20%;
-  }
-
-  .sm\:mb-20\% {
-    margin-bottom: 20%;
-  }
-
-  .sm\:ml-20\% {
-    margin-left: 20%;
   }
 
   .sm\:max-h-full {
@@ -3827,10 +3727,6 @@ body {
     text-align: justify;
   }
 
-  .sm\:text-transparent {
-    color: transparent;
-  }
-
   .sm\:text-\#000 {
     color: #000;
   }
@@ -3857,10 +3753,6 @@ body {
 
   .sm\:text-\#fff {
     color: #fff;
-  }
-
-  .sm\:hover\:text-transparent:hover {
-    color: transparent;
   }
 
   .sm\:hover\:text-\#000:hover {
@@ -4168,10 +4060,6 @@ body {
     background-attachment: scroll;
   }
 
-  .md\:bg-transparent {
-    background-color: transparent;
-  }
-
   .md\:bg-\#000 {
     background-color: #000;
   }
@@ -4198,10 +4086,6 @@ body {
 
   .md\:bg-\#fff {
     background-color: #fff;
-  }
-
-  .md\:hover\:bg-transparent:hover {
-    background-color: transparent;
   }
 
   .md\:hover\:bg-\#000:hover {
@@ -4292,10 +4176,6 @@ body {
     background-size: contain;
   }
 
-  .md\:border-transparent {
-    border-color: transparent;
-  }
-
   .md\:border-\#000 {
     border-color: #000;
   }
@@ -4322,10 +4202,6 @@ body {
 
   .md\:border-\#fff {
     border-color: #fff;
-  }
-
-  .md\:hover\:border-transparent:hover {
-    border-color: transparent;
   }
 
   .md\:hover\:border-\#000:hover {
@@ -5026,10 +4902,6 @@ body {
     margin: auto;
   }
 
-  .md\:m-20\% {
-    margin: 20%;
-  }
-
   .md\:my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -5118,16 +4990,6 @@ body {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:my-20\% {
-    margin-top: 20%;
-    margin-bottom: 20%;
-  }
-
-  .md\:mx-20\% {
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   .md\:mt-0 {
@@ -5272,22 +5134,6 @@ body {
 
   .md\:ml-auto {
     margin-left: auto;
-  }
-
-  .md\:mt-20\% {
-    margin-top: 20%;
-  }
-
-  .md\:mr-20\% {
-    margin-right: 20%;
-  }
-
-  .md\:mb-20\% {
-    margin-bottom: 20%;
-  }
-
-  .md\:ml-20\% {
-    margin-left: 20%;
   }
 
   .md\:max-h-full {
@@ -5858,10 +5704,6 @@ body {
     text-align: justify;
   }
 
-  .md\:text-transparent {
-    color: transparent;
-  }
-
   .md\:text-\#000 {
     color: #000;
   }
@@ -5888,10 +5730,6 @@ body {
 
   .md\:text-\#fff {
     color: #fff;
-  }
-
-  .md\:hover\:text-transparent:hover {
-    color: transparent;
   }
 
   .md\:hover\:text-\#000:hover {
@@ -6199,10 +6037,6 @@ body {
     background-attachment: scroll;
   }
 
-  .lg\:bg-transparent {
-    background-color: transparent;
-  }
-
   .lg\:bg-\#000 {
     background-color: #000;
   }
@@ -6229,10 +6063,6 @@ body {
 
   .lg\:bg-\#fff {
     background-color: #fff;
-  }
-
-  .lg\:hover\:bg-transparent:hover {
-    background-color: transparent;
   }
 
   .lg\:hover\:bg-\#000:hover {
@@ -6323,10 +6153,6 @@ body {
     background-size: contain;
   }
 
-  .lg\:border-transparent {
-    border-color: transparent;
-  }
-
   .lg\:border-\#000 {
     border-color: #000;
   }
@@ -6353,10 +6179,6 @@ body {
 
   .lg\:border-\#fff {
     border-color: #fff;
-  }
-
-  .lg\:hover\:border-transparent:hover {
-    border-color: transparent;
   }
 
   .lg\:hover\:border-\#000:hover {
@@ -7057,10 +6879,6 @@ body {
     margin: auto;
   }
 
-  .lg\:m-20\% {
-    margin: 20%;
-  }
-
   .lg\:my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -7149,16 +6967,6 @@ body {
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .lg\:my-20\% {
-    margin-top: 20%;
-    margin-bottom: 20%;
-  }
-
-  .lg\:mx-20\% {
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   .lg\:mt-0 {
@@ -7303,22 +7111,6 @@ body {
 
   .lg\:ml-auto {
     margin-left: auto;
-  }
-
-  .lg\:mt-20\% {
-    margin-top: 20%;
-  }
-
-  .lg\:mr-20\% {
-    margin-right: 20%;
-  }
-
-  .lg\:mb-20\% {
-    margin-bottom: 20%;
-  }
-
-  .lg\:ml-20\% {
-    margin-left: 20%;
   }
 
   .lg\:max-h-full {
@@ -7889,10 +7681,6 @@ body {
     text-align: justify;
   }
 
-  .lg\:text-transparent {
-    color: transparent;
-  }
-
   .lg\:text-\#000 {
     color: #000;
   }
@@ -7919,10 +7707,6 @@ body {
 
   .lg\:text-\#fff {
     color: #fff;
-  }
-
-  .lg\:hover\:text-transparent:hover {
-    color: transparent;
   }
 
   .lg\:hover\:text-\#000:hover {
@@ -8230,10 +8014,6 @@ body {
     background-attachment: scroll;
   }
 
-  .xl\:bg-transparent {
-    background-color: transparent;
-  }
-
   .xl\:bg-\#000 {
     background-color: #000;
   }
@@ -8260,10 +8040,6 @@ body {
 
   .xl\:bg-\#fff {
     background-color: #fff;
-  }
-
-  .xl\:hover\:bg-transparent:hover {
-    background-color: transparent;
   }
 
   .xl\:hover\:bg-\#000:hover {
@@ -8354,10 +8130,6 @@ body {
     background-size: contain;
   }
 
-  .xl\:border-transparent {
-    border-color: transparent;
-  }
-
   .xl\:border-\#000 {
     border-color: #000;
   }
@@ -8384,10 +8156,6 @@ body {
 
   .xl\:border-\#fff {
     border-color: #fff;
-  }
-
-  .xl\:hover\:border-transparent:hover {
-    border-color: transparent;
   }
 
   .xl\:hover\:border-\#000:hover {
@@ -9088,10 +8856,6 @@ body {
     margin: auto;
   }
 
-  .xl\:m-20\% {
-    margin: 20%;
-  }
-
   .xl\:my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -9180,16 +8944,6 @@ body {
   .xl\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .xl\:my-20\% {
-    margin-top: 20%;
-    margin-bottom: 20%;
-  }
-
-  .xl\:mx-20\% {
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   .xl\:mt-0 {
@@ -9334,22 +9088,6 @@ body {
 
   .xl\:ml-auto {
     margin-left: auto;
-  }
-
-  .xl\:mt-20\% {
-    margin-top: 20%;
-  }
-
-  .xl\:mr-20\% {
-    margin-right: 20%;
-  }
-
-  .xl\:mb-20\% {
-    margin-bottom: 20%;
-  }
-
-  .xl\:ml-20\% {
-    margin-left: 20%;
   }
 
   .xl\:max-h-full {
@@ -9920,10 +9658,6 @@ body {
     text-align: justify;
   }
 
-  .xl\:text-transparent {
-    color: transparent;
-  }
-
   .xl\:text-\#000 {
     color: #000;
   }
@@ -9950,10 +9684,6 @@ body {
 
   .xl\:text-\#fff {
     color: #fff;
-  }
-
-  .xl\:hover\:text-transparent:hover {
-    color: transparent;
   }
 
   .xl\:hover\:text-\#000:hover {
