@@ -14,14 +14,11 @@ main p {
     margin-bottom: 1em;
 }
 
-.tahoma {
-    font-family: Tahoma, sans-serif;
-}
+.tahoma { font-family: Tahoma, sans-serif; }
 
-.lh-normal {
-    line-height: normal;
-}
+.lh-normal { line-height: normal; }
 
-.w-0700 {
-    width: 700px;
-}
+.w-0700 { width: 700px; }
+
+.bg-blue { }
+
