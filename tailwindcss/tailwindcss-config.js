@@ -191,8 +191,7 @@ module.exports = {
 
     leading: {
         'none': 1,
-        'tight': 1.25,
-        'normal': 1.5,
+        'normal': 'normal',
         'loose': 2,
     },
 
@@ -366,8 +365,6 @@ module.exports = {
     height: {
         'auto': 'auto',
 
-        '40': '40px',
-
         'full': '100%',
         'screen': '100vh'
     },
@@ -409,6 +406,7 @@ module.exports = {
 
     minHeight: {
         '0': '0',
+        '40': '40px',
         'full': '100%',
         'screen': '100vh'
     },
