@@ -25,13 +25,8 @@ gulp.task('html-watch', function (done) {
 gulp.task('css', function () {
     return gulp.src('src.css')
         .pipe(postcss([
-            require('tailwindcss')('./tailwindcss-config.js'),
             require('postcss-import')
         ]))
-        .pipe(rename(function (path) {
-            path.basename = "full";
-        }))
-        .pipe(gulp.dest('.'))
 
         .pipe(uncss({
             html: ['index.html']
