@@ -3,6 +3,7 @@ var browserSync = require('browser-sync').create();
 var postcss = require('gulp-postcss');
 var uncss = require('gulp-uncss');
 var rename = require('gulp-rename');
+var csso = require('gulp-csso');
 
 gulp.task('bs', ['css'], function () {
     browserSync.init({
@@ -35,6 +36,7 @@ gulp.task('css', function () {
         .pipe(uncss({
             html: ['index.html']
         }))
+        .pipe(csso())
         .pipe(rename(function (path) {
             path.basename = "style";
         }))
