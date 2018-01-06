@@ -7,7 +7,9 @@
     "gulp-postcss": "7.0.0",
     "gulp-rename": "1.2.2",
     "gulp-uncss": "1.0.6",
-    "postcss-import": "11.0.0"
+    "postcss-import": "11.0.0",
+    "tachyons": "4.9.1",
+    "tachyons-like-spacing-in-pixels": "https://github.com/idmytro/tachyons-like-spacing-in-pixels.git#sass"
   },
   "scripts": {
     "start": "./node_modules/gulp/bin/gulp.js"
