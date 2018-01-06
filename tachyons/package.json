@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-csso": "3.0.1",
+    "gulp-postcss": "7.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-uncss": "1.0.6",
+    "postcss-import": "11.0.0",
+    "tailwindcss": "0.4.0"
+  },
+  "scripts": {
+    "start": "./node_modules/gulp/bin/gulp.js"
+  }
+}
