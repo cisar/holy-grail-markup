@@ -87,10 +87,10 @@ module.exports = {
     */
 
     screens: {
-        'sm': '576px',
-        'md': '768px',
-        'lg': '992px',
-        'xl': '1200px',
+        // 'sm': '576px',
+        // 'md': '768px',
+        // 'lg': '992px',
+        // 'xl': '1200px',
     },
 
 
@@ -305,11 +305,11 @@ module.exports = {
     */
 
     borderRadius: {
-        'none': '0',
-        'sm': '.125rem',
+        // 'none': '0',
+        // 'sm': '.125rem',
         default: '.25rem',
-        'lg': '.5rem',
-        'full': '9999px',
+        // 'lg': '.5rem',
+        // 'full': '9999px',
     },
 
 
