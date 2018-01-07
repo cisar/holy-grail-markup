@@ -26,8 +26,16 @@ gulp.task('css', function () {
     return gulp.src('src/style.css')
         .pipe(postcss([
             require('postcss-import'),
-            // require('postcss-unprefix'),
-            // require('autoprefixer')
+            require('postcss-cssnext')({
+                features: {
+                    customProperties: {
+                        preserve: true,
+                    },
+                },
+                warnForDuplicates: false,
+            }),
+            require('postcss-unprefix'),
+            require('autoprefixer'),
         ]))
 
         // .pipe(uncss({

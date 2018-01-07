@@ -9,6 +9,7 @@
     "gulp-postcss": "7.0.0",
     "gulp-rename": "1.2.2",
     "gulp-uncss": "1.0.6",
+    "postcss-cssnext": "3.0.2",
     "postcss-import": "11.0.0",
     "postcss-unprefix": "2.1.1",
     "tachyons": "4.9.1",
