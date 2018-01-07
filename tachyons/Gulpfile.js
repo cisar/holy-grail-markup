@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var postcss = require('gulp-postcss');
 var uncss = require('gulp-uncss');
-// var rename = require('gulp-rename');
+var replace = require('gulp-replace');
 var stripCssComments = require('gulp-strip-css-comments');
 var csso = require('gulp-csso');
 
@@ -20,8 +20,6 @@ gulp.task('html-watch', function (done) {
     browserSync.reload();
     done();
 });
-
-// Example https://tailwindcss.com/docs/installation#gulp
 
 gulp.task('css', function () {
     return gulp.src('src/style.css')
@@ -43,6 +41,7 @@ gulp.task('css', function () {
             html: ['index.html']
         }))
         .pipe(stripCssComments())
+        .pipe(replace(/\n\n*/g, '\n'))
         // .pipe(csso())
         .pipe(gulp.dest('dist/'));
 });

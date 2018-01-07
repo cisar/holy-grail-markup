@@ -8,7 +8,6 @@ body {
 
 button,
 input {
-    /* color: inherit; */
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -23,12 +22,8 @@ main p {
 
 .lh-normal { line-height: normal; }
 
+.w-55 { width: 55% }
 .w-0700 { width: 700px; }
 .w-0090 { width: 90px; }
 
-.bg-blue { }
-
 .flex-grow { flex-grow: 1; }
-
-.w-25 { width: 25% }
-.w-55 { width: 55% }
