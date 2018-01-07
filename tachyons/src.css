@@ -6,8 +6,12 @@ body {
     font-size: 13px;
 }
 
-.-order-1 {
-    order: -1;
+button,
+input {
+    /* color: inherit; */
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 main p {
@@ -20,6 +24,7 @@ main p {
 .lh-normal { line-height: normal; }
 
 .w-0700 { width: 700px; }
+.w-0090 { width: 90px; }
 
 .bg-blue { }
 
