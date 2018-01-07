@@ -28,13 +28,13 @@ gulp.task('css', function () {
             require('postcss-cssnext')({
                 features: {
                     customProperties: {
-                        preserve: true,
+                        preserve: false,
                     },
                 },
                 warnForDuplicates: false,
             }),
             require('postcss-unprefix'),
-            require('autoprefixer'),
+            require('autoprefixer')(),
         ]))
 
         .pipe(uncss({
