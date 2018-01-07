@@ -25,6 +25,8 @@ main p {
     margin-bottom: 1em;
 }
 
+nav ul { padding-left: 0; }
+
 .tahoma { font-family: Tahoma, sans-serif; }
 
 .lh-normal { line-height: normal; }
