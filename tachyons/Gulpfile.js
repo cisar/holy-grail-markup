@@ -3,6 +3,7 @@ var browserSync = require('browser-sync').create();
 var postcss = require('gulp-postcss');
 var uncss = require('gulp-uncss');
 // var rename = require('gulp-rename');
+var stripCssComments = require('gulp-strip-css-comments');
 var csso = require('gulp-csso');
 
 gulp.task('bs', ['css'], function () {
@@ -38,9 +39,10 @@ gulp.task('css', function () {
             require('autoprefixer'),
         ]))
 
-        // .pipe(uncss({
-        //     html: ['index.html']
-        // }))
+        .pipe(uncss({
+            html: ['index.html']
+        }))
+        .pipe(stripCssComments())
         // .pipe(csso())
         .pipe(gulp.dest('dist/'));
 });

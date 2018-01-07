@@ -23,72 +23,72 @@
  *
  */
 
-
 /* External Library Includes */
-@import './_normalize';
-
+@import '../node_modules/normalize.css/normalize.css';
 
 /* Modules */
-@import './_box-sizing';
-@import './_aspect-ratios';
-@import './_images';
-@import './_background-size';
-@import './_background-position';
-@import './_outlines';
-@import './_borders';
-@import './_border-colors';
-@import './_border-radius';
-@import './_border-style';
-@import './_border-widths';
-@import './_box-shadow';
-@import './_code';
-@import './_coordinates';
-@import './_clears';
-@import './_display';
-@import './_flexbox';
-@import './_floats';
-@import './_font-family';
-@import './_font-style';
-@import './_font-weight';
-@import './_forms';
-@import './_heights';
-@import './_letter-spacing';
-@import './_line-height';
-@import './_links';
-@import './_lists';
-@import './_max-widths';
-@import './_widths';
-@import './_overflow';
-@import './_position';
-@import './_opacity';
-@import './_rotations';
-@import './_skins';
-@import './_skins-pseudo';
-@import './_spacing';
-@import './_negative-margins';
-@import './_tables';
-@import './_text-decoration';
-@import './_text-align';
-@import './_text-transform';
-@import './_type-scale';
-@import './_typography';
-@import './_utilities';
-@import './_visibility';
-@import './_white-space';
-@import './_vertical-align';
-@import './_hovers';
-@import './_z-index';
-@import './_nested';
-@import './_styles';
+@import '../node_modules/tachyons/src/_box-sizing.css';
+@import '../node_modules/tachyons/src/_box-sizing';
+@import '../node_modules/tachyons/src/_aspect-ratios';
+@import '../node_modules/tachyons/src/_images';
+@import '../node_modules/tachyons/src/_background-size';
+@import '../node_modules/tachyons/src/_background-position';
+@import '../node_modules/tachyons/src/_outlines';
+@import '../node_modules/tachyons/src/_borders';
+@import '../node_modules/tachyons/src/_border-colors';
+@import '../node_modules/tachyons/src/_border-radius';
+@import '../node_modules/tachyons/src/_border-style';
+@import '../node_modules/tachyons/src/_border-widths';
+@import '../node_modules/tachyons/src/_box-shadow';
+@import '../node_modules/tachyons/src/_code';
+@import '../node_modules/tachyons/src/_coordinates';
+@import '../node_modules/tachyons/src/_clears';
+@import '../node_modules/tachyons/src/_display';
+@import '../node_modules/tachyons/src/_flexbox';
+@import '../node_modules/tachyons/src/_floats';
+@import '../node_modules/tachyons/src/_font-family';
+@import '../node_modules/tachyons/src/_font-style';
+@import '../node_modules/tachyons/src/_font-weight';
+@import '../node_modules/tachyons/src/_forms';
+@import '../node_modules/tachyons/src/_heights';
+@import '../node_modules/tachyons/src/_letter-spacing';
+@import '../node_modules/tachyons/src/_line-height';
+@import '../node_modules/tachyons/src/_links';
+@import '../node_modules/tachyons/src/_lists';
+@import '../node_modules/tachyons/src/_max-widths';
+@import '../node_modules/tachyons/src/_widths';
+@import '../node_modules/tachyons/src/_overflow';
+@import '../node_modules/tachyons/src/_position';
+@import '../node_modules/tachyons/src/_opacity';
+@import '../node_modules/tachyons/src/_rotations';
+@import '../node_modules/tachyons/src/_skins';
+@import '../node_modules/tachyons/src/_skins-pseudo';
+@import '../node_modules/tachyons/src/_spacing';
+@import '../node_modules/tachyons/src/_negative-margins';
+@import '../node_modules/tachyons/src/_tables';
+@import '../node_modules/tachyons/src/_text-decoration';
+@import '../node_modules/tachyons/src/_text-align';
+@import '../node_modules/tachyons/src/_text-transform';
+@import '../node_modules/tachyons/src/_type-scale';
+@import '../node_modules/tachyons/src/_typography';
+@import '../node_modules/tachyons/src/_utilities';
+@import '../node_modules/tachyons/src/_visibility';
+@import '../node_modules/tachyons/src/_white-space';
+@import '../node_modules/tachyons/src/_vertical-align';
+@import '../node_modules/tachyons/src/_hovers';
+@import '../node_modules/tachyons/src/_z-index';
+@import '../node_modules/tachyons/src/_nested';
+@import '../node_modules/tachyons/src/_styles';
 
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
-@import './_colors';
-@import './_media-queries';
+@import '../node_modules/tachyons/src/_colors';
+@import './_override_colors';
+@import '../node_modules/tachyons/src/_media-queries';
 
 /* Debugging */
-@import './_debug-children';
-@import './_debug-grid';
+@import '../node_modules/tachyons/src/_debug-children';
+@import '../node_modules/tachyons/src/_debug-grid';
 
 /* Uncomment out the line below to help debug layout issues */
-/* @import './_debug'; */
+/* @import '../node_modules/tachyons/src/_debug'; */
