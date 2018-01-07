@@ -1,11 +1,9 @@
 /*! TACHYONS v4.9.0 | http://tachyons.io */
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  line-height: 1.15;  
-  -webkit-text-size-adjust: 100%;
-     -moz-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-          text-size-adjust: 100%; 
+  line-height: 1.15; 
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
 }
 body {
   margin: 0;
@@ -25,8 +23,7 @@ main {
 }
 a {
   background-color: transparent; 
-  -webkit-text-decoration-skip: objects;
-          text-decoration-skip: objects; 
+  -webkit-text-decoration-skip: objects; 
 }
 img {
   border-style: none;
@@ -47,9 +44,7 @@ button {
 }
 button,
 [type="submit"] {
-  -webkit-appearance: button;
-     -moz-appearance: button;
-          appearance: button; 
+  -webkit-appearance: button; 
 }
 button::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
@@ -61,8 +56,7 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-          appearance: button; 
+  -webkit-appearance: button; 
   font: inherit; 
 }
 html,
@@ -82,19 +76,18 @@ p,
 ul,
 li,
 input[type="text"] {
-          -webkit-box-sizing: border-box;
-                  box-sizing: border-box;
+  box-sizing: border-box;
 }
 img { max-width: 100%; }
 .ba { border-style: solid; border-width: 1px; }
 .b--blue { border-color: #45F; }
 .di {              display: inline; }
 .db {              display: block; }
-.flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
-.flex-column  { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
-.items-end      { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
-.justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
-.order-1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+.flex { display: flex; }
+.flex-column  { flex-direction: column; }
+.items-end      { align-items: flex-end; }
+.justify-between { justify-content: space-between; }
+.order-1 { order: 1; }
 .fl { float: left;  _display: inline; }
 .h-100 { height: 100%; }
 .min-h-100 { min-height: 100%; }
@@ -171,4 +164,4 @@ main p {
 .w-55 { width: 55% }
 .w-0700 { width: 700px; }
 .w-0090 { width: 90px; }
-.flex-grow { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+.flex-grow { flex-grow: 1; }

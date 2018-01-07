@@ -6,6 +6,10 @@ var replace = require('gulp-replace');
 var stripCssComments = require('gulp-strip-css-comments');
 var csso = require('gulp-csso');
 
+var cssNextOptions = {
+
+};
+
 gulp.task('bs', ['css'], function () {
     browserSync.init({
         server: {
@@ -23,6 +27,15 @@ gulp.task('html-watch', function (done) {
 
 gulp.task('css', function () {
     return gulp.src('src/style.css')
+        .pipe(postcss())
+        .pipe(uncss({ html: ['index.html'] }))
+        // Maximum optimization
+        .pipe(csso())
+        .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('css-dev', function () {
+    return gulp.src('src/style.css')
         .pipe(postcss([
             require('postcss-import'),
             require('postcss-cssnext')({
@@ -33,16 +46,12 @@ gulp.task('css', function () {
                 },
                 warnForDuplicates: false,
             }),
-            require('postcss-unprefix'),
-            require('autoprefixer')(),
+            require('autoprefixer')({ add: false, browsers: [] }),
         ]))
-
-        .pipe(uncss({
-            html: ['index.html']
-        }))
+        .pipe(uncss({ html: ['index.html'] }))
+        // Minimum optimization
         .pipe(stripCssComments())
         .pipe(replace(/\n\n*/g, '\n'))
-        // .pipe(csso())
         .pipe(gulp.dest('dist/'));
 });
 
