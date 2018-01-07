@@ -23,7 +23,6 @@ gulp.task('html-watch', function (done) {
 gulp.task('css', function () {
     return gulp.src('src/style.css')
         .pipe(postcss())
-        .pipe(uncss({ html: ['index.html'] }))
         // Maximum optimization
         .pipe(csso())
         .pipe(gulp.dest('dist/'));
