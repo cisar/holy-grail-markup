@@ -13,6 +13,7 @@
     "normalize.css": "7.0.0",
     "postcss-cssnext": "3.0.2",
     "postcss-import": "11.0.0",
+    "postcss-uncss": "0.16.1",
     "tachyons": "4.9.1",
     "tachyons-like-spacing-in-pixels": "https://github.com/idmytro/tachyons-like-spacing-in-pixels.git#sass",
     "tachyons-like-type-scale-in-percents": "https://github.com/idmytro/tachyons-like-type-scale-in-percents.git#6f2a8a7"

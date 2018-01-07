@@ -10,5 +10,6 @@ module.exports = {
             warnForDuplicates: false,
         }),
         require('autoprefixer')({ add: false, browsers: [] }),
+        require('postcss-uncss')({ html: ['index.html'] }),
     ]
 };
