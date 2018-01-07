@@ -3,6 +3,7 @@
   "devDependencies": {
     "autoprefixer": "7.2.4",
     "browser-sync": "2.18.13",
+    "copyfiles": "1.2.0",
     "gulp": "^3.9.1",
     "gulp-csso": "3.0.1",
     "gulp-postcss": "7.0.0",
@@ -15,6 +16,8 @@
     "tachyons-like-type-scale-in-percents": "https://github.com/idmytro/tachyons-like-type-scale-in-percents.git#6f2a8a7"
   },
   "scripts": {
-    "start": "./node_modules/gulp/bin/gulp.js"
+    "start": "./node_modules/gulp/bin/gulp.js",
+    "copy": "cp ./node_modules/tachyons/src/*.css src/",
+    "setup": "npm run copy"
   }
 }

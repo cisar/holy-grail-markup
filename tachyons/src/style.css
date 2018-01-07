@@ -1,6 +1,6 @@
-@import './node_modules/tachyons/css/tachyons.css';
-@import './node_modules/tachyons-like-spacing-in-pixels/css/spacing-in-pixels.css';
-@import './node_modules/tachyons-like-type-scale-in-percents/css/type-scale-in-percents.css';
+@import './tachyons.css';
+@import '../node_modules/tachyons-like-spacing-in-pixels/css/spacing-in-pixels.css';
+@import '../node_modules/tachyons-like-type-scale-in-percents/css/type-scale-in-percents.css';
 
 body {
     font-size: 13px;
