@@ -1,13 +1,14 @@
 @import './node_modules/tachyons/css/tachyons.css';
 @import './node_modules/tachyons-like-spacing-in-pixels/css/spacing-in-pixels.css';
+@import './node_modules/tachyons-like-type-scale-in-percents/css/type-scale-in-percents.css';
 
 body {
     font-size: 13px;
 }
 
- .-order-1 {
-     order: -1;
- }
+.-order-1 {
+    order: -1;
+}
 
 main p {
     margin-top: 1em;
@@ -22,3 +23,7 @@ main p {
 
 .bg-blue { }
 
+.flex-grow { flex-grow: 1; }
+
+.w-25 { width: 25% }
+.w-55 { width: 55% }

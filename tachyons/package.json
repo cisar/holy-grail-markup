@@ -11,7 +11,8 @@
     "postcss-import": "11.0.0",
     "postcss-unprefix": "2.1.1",
     "tachyons": "4.9.1",
-    "tachyons-like-spacing-in-pixels": "https://github.com/idmytro/tachyons-like-spacing-in-pixels.git#sass"
+    "tachyons-like-spacing-in-pixels": "https://github.com/idmytro/tachyons-like-spacing-in-pixels.git#sass",
+    "tachyons-like-type-scale-in-percents": "https://github.com/idmytro/tachyons-like-type-scale-in-percents.git#6f2a8a7"
   },
   "scripts": {
     "start": "./node_modules/gulp/bin/gulp.js"
